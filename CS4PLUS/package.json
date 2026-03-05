@@ -1,0 +1,9 @@
+{
+  "name": "cs4-calculator",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/runTests.js"
+  }
+}

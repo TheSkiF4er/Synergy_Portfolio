@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интерактивный калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="calculator" aria-label="Калькулятор">
+        <header class="calculator__header">
+            <h1>Калькулятор</h1>
+            <p class="hint">Поддерживаются: + − × ÷, степень, остаток, √, log, sin/cos (в радианах).</p>
+        </header>
+
+        <section class="inputs" aria-label="Ввод чисел">
+            <label class="field">
+                <span>Число A</span>
+                <input type="text" id="num1" inputmode="decimal" placeholder="Например: 12.5" autocomplete="off">
+                <small class="field__error" id="num1Error" aria-live="polite"></small>
+            </label>
+
+            <label class="field">
+                <span>Число B</span>
+                <input type="text" id="num2" inputmode="decimal" placeholder="Например: 3" autocomplete="off">
+                <small class="field__error" id="num2Error" aria-live="polite"></small>
+            </label>
+        </section>
+
+        <section class="toolbar" aria-label="Действия">
+            <button id="clearFields" class="btn btn--secondary" type="button">Очистить поля</button>
+            <button id="clearHistory" class="btn btn--secondary" type="button">Очистить историю</button>
+        </section>
+
+        <section class="buttons" aria-label="Операции">
+            <!-- Кнопки генерируются из списка операций (см. js/operations.js) -->
+        </section>
+
+        <section class="output" aria-label="Результат">
+            <div id="result" class="result" role="status" aria-live="polite">Результат: —</div>
+        </section>
+
+        <section class="history" aria-label="История вычислений">
+            <h2>История</h2>
+            <ol id="historyList" class="history__list"></ol>
+        </section>
+    </main>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
