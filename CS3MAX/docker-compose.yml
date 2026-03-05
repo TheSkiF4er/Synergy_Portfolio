@@ -1,0 +1,20 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./:/app
+    command: python manage.py runserver 0.0.0.0:8000
+
+  # Optional PostgreSQL for scaling beyond SQLite
+  # db:
+  #   image: postgres:16
+  #   environment:
+  #     POSTGRES_DB: greeting
+  #     POSTGRES_USER: greeting
+  #     POSTGRES_PASSWORD: greeting
+  #   ports:
+  #     - "5432:5432"
