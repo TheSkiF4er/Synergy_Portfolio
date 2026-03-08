@@ -1,5 +1,5 @@
 Архив содержит:
-- RusStandart_Redesign_Concept.pptx — оформленная презентация проекта.
+- Redesign_Concept.pptx — оформленная презентация проекта.
 - boards/01_wireframe_homepage.png — прототип главной страницы.
 - boards/02_wireframe_menu.png — прототип раскрытого меню.
 - boards/03_final_homepage.png — финальная desktop-визуализация.
