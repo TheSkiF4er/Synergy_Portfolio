@@ -14,7 +14,8 @@
 
 **Пример:**
 
-IMG
+<img width="642" height="388" alt="image" src="https://github.com/user-attachments/assets/2821fb36-4672-4356-ac0f-db3b139bb326" />
+
 
 **Пример визуализации спринта для продвинутого уровня:**
 
