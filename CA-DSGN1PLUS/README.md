@@ -71,7 +71,7 @@
 - Корзина и checkout объединены в один экран с карточками.
 - Кнопка помощи и блок совместимости вынесены в постоянные элементы.
 
-# CHANGEBODY — research sources
+# CHANGEBODY — источники исследований
 
 ## Accessibility
 - Apple Human Interface Guidelines
