@@ -82,7 +82,7 @@
 - W3C WCAG 2.2: Target Size (Minimum)
 - W3C WCAG 2.2 overview
 
-## Implant / prosthetics / support references
+## Справочная информация по имплантатам / протезам / вспомогательным средствам
 - Open Bionics — Hero Arm
 - Össur — i-Limb apps hub
 - Össur — my i-Limb app page
